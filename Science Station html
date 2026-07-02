@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Science Station</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>🧪 Science Station</h1>
+    <p>Test your chemistry knowledge!</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
