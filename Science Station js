@@ -1,0 +1,25 @@
+function startGame() {
+  const questions = [
+    {
+      q: "What is the chemical symbol for Water?",
+      a: "H2O"
+    },
+    {
+      q: "What is the pH of a neutral solution?",
+      a: "7"
+    },
+    {
+      q: "Which gas do plants absorb?",
+      a: "CO2"
+    }
+  ];
+
+  const random = questions[Math.floor(Math.random() * questions.length)];
+  const answer = prompt(random.q);
+
+  if (answer && answer.toUpperCase() === random.a.toUpperCase()) {
+    alert("✅ Correct!");
+  } else {
+    alert("❌ Wrong! Correct answer: " + random.a);
+  }
+}
